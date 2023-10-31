@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    overflow-x: hidden;
 }
 
 header {
@@ -103,4 +108,76 @@ header {
     border-radius: 3em;
     background: red;
     border: none;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.box, .box2 {
+    width: 300px; 
+    height: 47.5vh;
+    background-color: #1F2235;
+    margin: 16px;
+    border-radius: 16px;
+}
+
+.box, .box2 {
+    background-color: #1F2235;
+    transition-duration: 1s;
+}
+
+.boxicon {
+    margin-left:8%;
+    margin-top: 15%;
+    width: 40%;
+    font-size: 30px;
+    color: #ff4a57;
+}
+
+
+#letter-head {
+    margin-left:50px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 50px;
+}
+
+#letter {
+    margin-top: 5%;
+    width: 230px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.box:hover,.box2:hover {
+    background-color: #ff4a57;
+}
+
+.p-all {
+    margin-left: 50px;
+    color : white;
+    text-align: center;
+}
+
+.h-all {
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color : white;
+}
+
+.small-sv {
+    text-align: center;
+    color: #FF4A57;
 }
